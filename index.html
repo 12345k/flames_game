@@ -20,6 +20,7 @@
     Enter your name:<input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
     Enter your crush name:<input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
     <input type="button" onclick="flame_func()"name="" value="Submit">
+      <h1 id="result"></h1>
     <center>
   </body>
   <script>
@@ -69,33 +70,35 @@
   if(letters == "1")
   {
      swal("Relationship ", "Friends", "success");
+    document.getElementById('result').value ="Friends";
 
   }
   else if (letters == "2")
   {
     swal("Relationship ", "Lovers", "success");
+    document.getElementById('result').value ="Lovers";
 
   }
   else if (letters == "3")
   {
     swal("Relationship ", "Affections", "success");
-
+document.getElementById('result').value ="Affections";
   }
   else if (letters == "4")
   {
     swal("Relationship ", "Married", "success");
-
+document.getElementById('result').value ="Married";
   }
   else if (letters == "5")
   {
     swal("Relationship ", "Enemy", "error");
-
+document.getElementById('result').value ="Enemy";
 
   }
   else if (letters == "0")// 6 wont appear
   {
       swal("Relationship ", "Brother / Sisters", "success");
-
+document.getElementById('result').value ="Brother / Sisters";
   }
   }
 
