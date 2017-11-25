@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Falmes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+     <script src="http://tristanedwards.me/u/SweetAlert//lib/sweet-alert.js"></script>
+     <link rel="stylesheet" type="text/css" href="http://tristanedwards.me/u/SweetAlert//lib/sweet-alert.css">
+
+
+  </head>
+  <body>
+    <center><h1>Flames</h1>
+    <!-- only alphabets should be accepted -->
+
+    Enter your name:<input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
+    Enter your crush name:<input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+    <input type="button" onclick="flame_func()"name="" value="Submit">
+    <center>
+  </body>
+  <script>
+
+  function alphaOnly(event) {
+    var key = event.keyCode;
+    return ((key >= 65 && key <= 90) || key == 8);
+  };
+
+
+  function flame_func()
+  {
+  var name1 = document.getElementById('name1').value;
+  var name2 = document.getElementById('name2').value;
+
+  if(name1 == "")
+  {
+    alert("Enter your name")
+  }
+  else if (name2 == "")
+   {
+    alert("Enter your crush name")
+  }
+
+  var first = name1;
+  var sec = name2;
+
+  for(i=0;i<name1.length;i++)
+  {
+    sec = sec.replace(name1[i],'');
+
+  }
+
+  for(i=0;i<name2.length;i++)
+  {
+    first = first.replace(name2[i],"");
+  }
+  var final = first+sec;
+
+  //Main function begins here
+
+  var final_length = final.length;
+  //flames totally 6 letters
+
+  var letters = parseInt(final_length)%6;
+
+  if(letters == "1")
+  {
+     swal("Relationship ", "Friends", "success");
+
+  }
+  else if (letters == "2")
+  {
+    swal("Relationship ", "Lovers", "success");
+
+  }
+  else if (letters == "3")
+  {
+    swal("Relationship ", "Affections", "success");
+
+  }
+  else if (letters == "4")
+  {
+    swal("Relationship ", "Married", "success");
+
+  }
+  else if (letters == "5")
+  {
+    swal("Relationship ", "Enemy", "error");
+
+
+  }
+  else if (letters == "0")// 6 wont appear
+  {
+      swal("Relationship ", "Brother / Sisters", "success");
+
+  }
+  }
+
+  </script>
+</html>
