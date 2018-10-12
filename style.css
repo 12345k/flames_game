@@ -1,3 +1,9 @@
+*{
+    font-family: 'Poppins';
+}
 .social a {
   padding: 0 .5em;
+}
+.UserInput{
+    font-size: 20px;
 }
