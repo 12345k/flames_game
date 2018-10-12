@@ -6,6 +6,24 @@
 }
 .UserInput{
     font-size: 20px;
+    width: 600px;
+    padding: 30px 10px 10px 10px;   
+}
+#flame-btn{
+    color: #1E90FF;
+    border: 2px solid #1E90FF;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#flame-btn:hover{
+    color: gray;
+    border-color: gray;
+}
+
+.inp-name{
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
 }
 /* h1 {
     background-color: green;
