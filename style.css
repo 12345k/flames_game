@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 *{
-    font-family: 'Poppins';
+    font-family: 'Open Sans',serif;
 }
 .social a {
   padding: 0 .5em;
