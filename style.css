@@ -1,11 +1,11 @@
 *{
-    font-family: 'Poppins';
+    font-family: 'arial';
 }
 .social a {
-  padding: 0 .5em;
+  padding: .5em .5em;
 }
 .UserInput{
-    font-size: 20px;
+    font-size: 40px;
 }
 /* h1 {
     background-color: green;
