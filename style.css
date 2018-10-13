@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Sans);
+@font-face { font-family: roboto-regular; 
+			 src: url('../font/Roboto-Regular.ttf'); } 
+h2{
+	font-family: roboto-regular;
+}
 *{
     font-family: 'Sans',serif;
 }
@@ -8,7 +12,7 @@
 .UserInput{
     font-size: 20px;
 }
-/* h1 {
+ h1 {
     background-color: blue;
 }
 
@@ -28,4 +32,4 @@ p {
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
-} */
+} 
