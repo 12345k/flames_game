@@ -7,8 +7,9 @@
 .UserInput{
     font-size: 20px;
 }
-/* h1 {
-    background-color: green;
+h2 {
+    background-color: light blue;
+    font-size: 10px;
 }
 
 div {
@@ -16,7 +17,8 @@ div {
 }
 
 p {
-    background-color: yellow;
+    background-color: green;
+    font-size: 25px;
 }
 .container {
     position: absolute;
@@ -27,4 +29,4 @@ p {
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
-} */
+}
