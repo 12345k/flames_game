@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 *{
   color: white;
   font-family: 'Poppins';
@@ -5,6 +7,7 @@
 
 .title, .container h2 {
   text-shadow: 2px 2px black;
+  font-family: 'Dancing Script', cursive;
 }
 
 .social a {
