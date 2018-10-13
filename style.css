@@ -17,8 +17,9 @@ div {
 }
 
 p {
-    background-color: green;
+    background-color: black;
     font-size: 25px;
+    
 }
 .container {
     position: absolute;
@@ -27,6 +28,9 @@ p {
     color: #000;
     font-size: 35px;
     font-weight: bold;
+    background-color:#fff;
+    border-radius:10px;
+    border:1px solid #ccc;
 }
 body{background-image: url("paper.gif");
 }
