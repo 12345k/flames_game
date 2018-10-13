@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 *{
-    font-family: 'Poppins';
+    font-family: 'Open Sans',serif;
 }
 .social a {
   padding: 0 .5em;
@@ -8,15 +9,15 @@
     font-size: 20px;
 }
 /* h1 {
-    background-color: green;
+    background-color: blue;
 }
 
 div {
-    background-color: lightblue;
+    background-color: grey;
 }
 
 p {
-    background-color: yellow;
+    background-color: white;
 }
 .container {
     position: absolute;
