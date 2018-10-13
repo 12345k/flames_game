@@ -1,18 +1,24 @@
-*{
+/**{
     font-family: 'Poppins';
-}
+}*/
 .social a {
   padding: 0 .5em;
+
 }
 .UserInput{
     font-size: 20px;
 }
-/* h1 {
+ h1 {
     background-color: green;
+    
+}
+h2{
+    font-family: lobster;
 }
 
 div {
-    background-color: lightblue;
+    background-color: orange;
+    height: 100vh;
 }
 
 p {
@@ -27,4 +33,4 @@ p {
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
-} */
+} 
