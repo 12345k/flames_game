@@ -23,8 +23,8 @@
     <div class="UserInput">
     <!-- only alphabets should be accepted -->
 
-    Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-    Enter your crush name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+    Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value="" required><br><br>
+    Enter your crush name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value="" required><br><br>
     <input type="button" onclick="flame_func()"name="" value="Submit">
       <h1 id="result"></h1>
 
@@ -52,7 +52,6 @@
     var key = event.keyCode;
     return ((key >= 65 && key <= 90) || key == 8);
   };
-
 
   function flame_func()
   {
@@ -88,45 +87,31 @@
   var final_length = final.length;
   //flames totally 6 letters
 
-  var letters = parseInt(final_length)%6;
-
-  if(letters == "1")
-  {
-//      swal("Relationship ", "Friends", "success");
-    alert("Friends");
-
+  var letters = parseInt(final_length, 10) % 6;
+    
+    var relationship = '';
+    switch(letters) {
+      case 1:
+        relationship = 'Friends';
+        break;
+      case 2:
+        relationship = 'Lovers';
+        break;
+      case 3:
+        relationship = 'Affections';
+        break;
+      case 4:
+        relationship = 'Married';
+        break;
+      case 5:
+        relationship = 'Enemy';
+        break;
+      default:
+        relationship = 'Brother / Sisters';
+        break;
+    }
+    alert(relationship);
   }
-  else if (letters == "2")
-  {
-//     swal("Relationship ", "Lovers", "success");
-      alert("Lovers");
-
-  }
-  else if (letters == "3")
-  {
-//     swal("Relationship ", "Affections", "success");
-  alert("Affections");
-  }
-  else if (letters == "4")
-  {
-//     swal("Relationship ", "Married", "success");
-  alert("Married");
-  }
-  else if (letters == "5")
-  {
-//     swal("Relationship ", "Enemy", "error");
-  alert("Enemy");
-
-  }
-  else if (letters == "0")// 6 wont appear
-  {
-//       swal("Relationship ", "Brother / Sisters", "success");
-  alert("Brother / Sisters");
-  }
-  }
-
-  </script>
-  <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function(event) { 
 
 // Uses sharer.js 
@@ -165,16 +150,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     isMobile = true;
 }
 
-if ( isMobile == true ) {
-$("#share-wa").hide();
+if ( isMobile === false ) {
+  document.getElementById('share-wa').classList.add('hide');
 }
-
-  
-  
-  
-  
-
-
 });
   </script>
 </html>
