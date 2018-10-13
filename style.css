@@ -6,10 +6,11 @@
 }
 .UserInput{
     font-size: 20px;
+    padding: 1rem;
 }
 /* h1 {
     background-color: green;
-}
+} */
 
 div {
     background-color: lightblue;
@@ -19,12 +20,18 @@ p {
     background-color: yellow;
 }
 .container {
-    position: absolute;
+    
+    position: relative;
+    margin: 200px auto;
     right: 25px;
-    top: 0; 
+    /* top: 0;  */
     color: #000;
     font-size: 35px;
     font-weight: bold;
 }
-body{background-image: url("paper.gif");
-} */
+body{background-image: url("paper.gif"); 
+}
+
+input{
+    border: none;
+}
