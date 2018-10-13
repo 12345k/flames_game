@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flames</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"><!--Google fonts-->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -19,13 +20,17 @@
   </head>
   <body>
     <center>
-    <h1>Flames</h1>
+      <div class="intro">
+        <h1>Flames</h1>
+        <p>Test how compatability you and your crush are!</p>
+        <p><strong>Happily ever after</strong> or <strong>never gonna happen?</strong></p>
+      </div>
     <div class="UserInput">
     <!-- only alphabets should be accepted -->
 
-    Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-    Enter your crush name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
-    <input type="button" onclick="flame_func()"name="" value="Submit">
+    <label>Enter your name:</label> <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
+    <label>Enter your crush name:</label> <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+    <div class="heart">><input type="button" onclick="flame_func()"name="" value="Submit"></div>
       <h1 id="result"></h1>
 
     </div>
