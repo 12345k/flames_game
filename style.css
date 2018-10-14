@@ -1,6 +1,11 @@
 *{
-  color: white;
+  color: black;
   font-family: 'Poppins';
+}
+
+.main-container
+{
+  margin: auto;
 }
 
 .title, .container h2 {
