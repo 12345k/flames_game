@@ -1,6 +1,7 @@
 *{
   color: white;
   font-family: 'Poppins';
+
 }
 
 .title, .container h2 {
@@ -17,6 +18,10 @@
 
 .UserInput{
   font-size: 20px;
+}
+
+.input-text {
+  color: blue;
 }
 
 input[value=Submit] {
@@ -41,12 +46,13 @@ input[value=Submit]:hover {
   width: 70%;
 }
 
-.container h2 {
-  margin-right: 7.5em;
+.container h2, .social {
+  /* margin-right: 7.5em; */
+  margin: 0 auto;
 }
 
 .social {
-  margin-right: 15em;
+  margin-top: 0.5em;
 }
 
 .social a:hover {
