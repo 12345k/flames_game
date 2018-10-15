@@ -7,12 +7,11 @@
   text-shadow: 2px 2px black;
 }
 
-.social a {
-  padding: 0.5em;
-}
+
 
 .social a:hover {
   color: turquoise;
+  padding: 0.5em;
 }
 
 .UserInput{
@@ -45,12 +44,10 @@ input[value=Submit]:hover {
   margin-right: 7.5em;
 }
 
-.social {
-  margin-right: 15em;
-}
 
 .social a:hover {
   color: turquoise;
+  margin-right: 15em;
 }
 
 /* h1 {
