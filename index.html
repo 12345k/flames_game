@@ -17,19 +17,19 @@
 
  -->
   </head>
-  <body>
+  <body style="background-color:blue;">
     <center>
 
     <div class="main-container">
-      <div class="title">
-        <h1>Flames</h1>
+      <div class="title"><center>
+        <h1 style="font-size:360%;"><i>Flames</i></h1></center>
       </div>
 
       <div class="UserInput">
       <!-- only alphabets should be accepted -->
 
-        Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-        Enter your crush's name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+        <b><i>Enter your name:</i></b> <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
+       <b><i> Enter your crush's name:</i></b> <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
         <input type="button"  onclick="flame_func()"name="" value="Submit">
           <h1 id="result"></h1>
 
