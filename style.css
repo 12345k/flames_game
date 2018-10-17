@@ -74,3 +74,9 @@ p {
 }
 body{background-image: url("paper.gif");
 } */
+
+/* Update CSS */
+
+input[type=text] {
+  color: #000;
+}
