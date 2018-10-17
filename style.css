@@ -53,6 +53,11 @@ input[value=Submit]:hover {
   color: turquoise;
 }
 
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
 /* h1 {
     background-color: green;
 }
