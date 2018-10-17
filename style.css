@@ -20,7 +20,7 @@
 }
 
 input[value=Submit] {
-  background-color: white;
+  background-color: yellow; 
   border: 0.1em solid black;
   border-radius: 0.25em;
   color: blue;
@@ -51,6 +51,11 @@ input[value=Submit]:hover {
 
 .social a:hover {
   color: turquoise;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
 }
 
 /* h1 {
