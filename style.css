@@ -4,7 +4,7 @@
 }
 
 .title, .container h2 {
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 
 .social a {
@@ -21,9 +21,9 @@
 
 input[value=Submit] {
   background-color: white;
-  border: 0.1em solid black;
+  border: 0.3em solid black;
   border-radius: 0.25em;
-  color: blue;
+  color: red;
   padding: 0.5em;
 }
 
