@@ -3,6 +3,11 @@
   font-family: 'Poppins';
 }
 
+body {
+  font-family: 'Baloo Chettan';
+  font-size: 22px;
+}
+
 .title, .container h2 {
   text-shadow: 2px 2px black;
 }
