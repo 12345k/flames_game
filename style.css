@@ -35,7 +35,7 @@ input[value=Submit]:hover {
   background: rgb(255,41,149);
   background: linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%);
   border-radius: 2em;
-  box-shadow: 6px 10px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   margin-top: 4em;
   padding: 4em;
   width: 70%;
