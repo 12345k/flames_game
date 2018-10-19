@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: green;}
+    to {background-color: red;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: orange;}
+    to {background-color: pink;}
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> HELLO FOLKS.</p>
+
+<div></div>
+
+<p><b>Note:</b> THIS IS ANIMATIONS.</p>
+
+</body>
+</html>
