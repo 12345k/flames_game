@@ -1,9 +1,10 @@
-*{
+* {
   color: white;
   font-family: 'Poppins';
 }
 
-.title, .container h2 {
+.title,
+.container h2 {
   text-shadow: 2px 2px black;
 }
 
@@ -15,11 +16,15 @@
   color: turquoise;
 }
 
-.UserInput{
+.UserInput {
   font-size: 20px;
 }
 
-input[value=Submit] {
+.UserInput input[type='text'] {
+  color: #000;
+}
+
+input[value='Submit'] {
   background-color: white;
   border: 0.1em solid black;
   border-radius: 0.25em;
@@ -27,13 +32,17 @@ input[value=Submit] {
   padding: 0.5em;
 }
 
-input[value=Submit]:hover {
+input[value='Submit']:hover {
   background-color: orange;
 }
 
 .main-container {
-  background: rgb(255,41,149);
-  background: linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%);
+  background: rgb(255, 41, 149);
+  background: linear-gradient(
+    7deg,
+    rgba(255, 41, 149, 1) 0%,
+    rgba(94, 0, 255, 1) 100%
+  );
   border-radius: 2em;
   box-shadow: 6px 10px black;
   margin-top: 4em;
