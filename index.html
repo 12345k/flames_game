@@ -11,54 +11,36 @@
     <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-<!--      <script src="https://tristanedwards.me/u/SweetAlert//lib/sweet-alert.js"></script>
-     <link rel="stylesheet" type="text/css" href="https://tristanedwards.me/u/SweetAlert//lib/sweet-alert.css">
-
- -->
   </head>
   <body>
-    <center>
-
-    <div class="main-container">
-      <div class="title">
-        <h1>Flames</h1>
+      <div class="main-container">
+          <div class="main-container-inner">
+              <h1>Flames</h1>
+              <div class="UserInput">
+                  <label for="name1">Enter your name:</label>
+                  <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name1" name="" value="">
+                  <label for="name1">Enter your crush's name:</label>
+                  <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2" name="" value="">
+                  <input type="button" onclick="flame_func()" name="" value="Submit">
+              </div>
+              <h1 id="result"></h1>
+              <h3>Share This Post</h3>
+              <div class="social">
+                  <a href="#" id="share-wa" class="sharer-button"><i class="fa fa-3x fa-whatsapp"></i></a>
+                  <a href="#" id="share-fb" class="sharer-button"><i class="fa fa-3x fa-facebook-square"></i></a>
+                  <a href="#" id="share-tw" class="sharer-button"><i class="fa fa-3x fa-twitter-square"></i></a>
+                  <a href="#" id="share-li" class="sharer-button"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                  <a href="#" id="share-gp" class="sharer-button"><i class="fa fa-3x fa-google-plus-square"></i></a>
+                  <a href="#" id="share-em" class="sharer-button"><i class="fa fa-3x fa-envelope-square"></i></a>
+              </div>
+          </div>
       </div>
-
-      <div class="UserInput">
-      <!-- only alphabets should be accepted -->
-
-        Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-        Enter your crush's name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
-        <input type="button"  onclick="flame_func()"name="" value="Submit">
-          <h1 id="result"></h1>
-
-      </div>
-<center>
-    <div class="container">
-      <h2>Share This Post</h2>
-      <div class="social">
-        <a href="#" id="share-wa" class="sharer-button"><i class="fa fa-3x fa-whatsapp"></i></a> <!-- -->
-        <a href="#" id="share-fb" class="sharer-button"><i class="fa fa-3x fa-facebook-square"></i></a>
-        <a href="#" id="share-tw" class="sharer-button"><i class="fa fa-3x fa-twitter-square"></i></a>
-        <a href="#" id="share-li" class="sharer-button"><i class="fa fa-3x fa-linkedin-square"></i></a> <!-- -->
-        <a href="#" id="share-gp" class="sharer-button"><i class="fa fa-3x fa-google-plus-square"></i></a>
-        <a href="#" id="share-em" class="sharer-button"><i class="fa fa-3x fa-envelope-square"></i></a> <!-- -->
-      </div>
-    </div>
-
-  </div> <!-- main-container -->
-
-</body>
-
+  </body>
   <script>
-
   function alphaOnly(event) {
     var key = event.keyCode;
     return ((key >= 65 && key <= 90) || key == 8);
   };
-
 
   function flame_func()
   {
