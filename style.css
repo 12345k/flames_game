@@ -3,7 +3,7 @@
   font-family: 'Poppins';
 }
 
-.title, .container h2 {
+.title, .container h3 {
   text-shadow: 2px 2px black;
 }
 
@@ -41,7 +41,7 @@ input[value=Submit]:hover {
   width: 70%;
 }
 
-.container h2 {
+.container h3 {
   margin-right: 7.5em;
 }
 
@@ -53,7 +53,7 @@ input[value=Submit]:hover {
   color: turquoise;
 }
 
-/* h1 {
+ h1 {
     background-color: green;
 }
 
@@ -73,4 +73,4 @@ p {
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
-} */
+} 
