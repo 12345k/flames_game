@@ -7,6 +7,11 @@
   text-shadow: 2px 2px black;
 }
 
+
+.input{
+    color:black !important;
+}
+
 .social a {
   padding: 0.5em;
 }
