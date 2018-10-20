@@ -1,4 +1,4 @@
-*{
+body{
   color: white;
   font-family: 'Poppins';
 }
@@ -28,7 +28,7 @@ input[value=Submit] {
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color: green;
 }
 
 .main-container {
@@ -73,4 +73,4 @@ p {
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
-} */
+} 
