@@ -17,7 +17,7 @@ h2{
 }
 
 div {
-    background-color: grey;
+    background-color: green;
 }
 
 p {
@@ -25,10 +25,10 @@ p {
 }
 .container {
     position: absolute;
-    right: 25px;
+    right: 24px;
     top: 0; 
     color: #000;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: bold;
 }
 body{background-image: url("paper.gif");
