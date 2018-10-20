@@ -16,7 +16,7 @@
 }
 
 .UserInput{
-  font-size: 20px;
+  font-size: 19px;
 }
 
 input[value=Submit] {
@@ -28,7 +28,7 @@ input[value=Submit] {
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color: blue;
 }
 
 .main-container {
@@ -42,7 +42,7 @@ input[value=Submit]:hover {
 }
 
 .container h2 {
-  margin-right: 7.5em;
+  margin-right: 6.4em;
 }
 
 .social {
