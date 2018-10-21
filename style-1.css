@@ -32,10 +32,10 @@ input[value=Submit]:hover {
 }
 
 .main-container {
-  background: rgb(252,40,145);
-  background: linear-gradient(7deg, rgba(252,41,149,1) 0%, rgba(50,10,100,10) 100%);
+  background: rgb(255,41,149);
+  background: linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%);
   border-radius: 2em;
-  box-shadow: 6px 10px purple;
+  box-shadow: 6px 10px black;
   margin-top: 4em;
   padding: 4em;
   width: 70%;
