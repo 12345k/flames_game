@@ -17,18 +17,19 @@
 
 .UserInput{
   font-size: 20px;
+  color: black;
 }
 
 input[value=Submit] {
-  background-color: white;
+  background-color: ;
   border: 0.1em solid black;
   border-radius: 0.25em;
-  color: blue;
-  padding: 0.5em;
+  color: black;
+ 
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color:linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%) ;
 }
 
 .main-container {
@@ -53,24 +54,4 @@ input[value=Submit]:hover {
   color: turquoise;
 }
 
-/* h1 {
-    background-color: green;
-}
 
-div {
-    background-color: lightblue;
-}
-
-p {
-    background-color: yellow;
-}
-.container {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-body{background-image: url("paper.gif");
-} */

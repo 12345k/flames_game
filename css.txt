@@ -1,0 +1,4 @@
+ Enter your name:  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp<input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value="" placeholder="Enter your name"><br><br>
+        Enter your crush's name:   <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+        <input type="button"  onclick="flame_func()"name="" value="Submit" placeholder="Enter your crush's name">
+          <h1 id="result"></h1>
