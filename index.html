@@ -28,16 +28,18 @@
       <div class="UserInput">
       <!-- only alphabets should be accepted -->
 
-        Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-        Enter your crush's name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+        Enter your name:  &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp<input type="text" onfocus="this.value=''" style="text-transform:uppercase "  onkeydown="return alphaOnly(event);"id="name1"name="col1" value="" ><br><br>
+        Enter your crush's name:   <input type="text" onfocus="this.value=''" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="col2" value=""><br><br>
         <input type="button"  onclick="flame_func()"name="" value="Submit">
           <h1 id="result"></h1>
 
       </div>
 <center>
+	<img src="3.jpg" style="float: left" width="150px;" height="150px">
     <div class="container">
       <h2>Share This Post</h2>
       <div class="social">
+      	
         <a href="#" id="share-wa" class="sharer-button"><i class="fa fa-3x fa-whatsapp"></i></a> <!-- -->
         <a href="#" id="share-fb" class="sharer-button"><i class="fa fa-3x fa-facebook-square"></i></a>
         <a href="#" id="share-tw" class="sharer-button"><i class="fa fa-3x fa-twitter-square"></i></a>
@@ -134,11 +136,12 @@
 
 
   <script type="text/javascript">
+
     document.addEventListener("DOMContentLoaded", function(event) {
 
 // Uses sharer.js
 //  https://ellisonleao.github.io/sharer.js/#twitter
-   var url = window.location.href;
+   var url = document.url;
    var title = document.title;
    var subject = "Read this good article";
    var via = "bootstrapC";
@@ -178,5 +181,13 @@ $("#share-wa").hide();
 
 
 });
+
+
+//document.getElementById("col1").reset(); 
+//document.getElementById("col2").reset(); 
+
+
+
+
   </script>
 </html>
