@@ -1,10 +1,10 @@
 *{
-  color: white;
   font-family: 'Poppins';
 }
 
 .title, .container h2 {
   text-shadow: 2px 2px black;
+  color: white;
 }
 
 .social a {
@@ -23,12 +23,20 @@ input[value=Submit] {
   background-color: white;
   border: 0.1em solid black;
   border-radius: 0.25em;
-  color: blue;
+  color: black;
   padding: 0.5em;
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color: rgb(94,0,255);
+  color:  #fff;
+}
+input::placeholder {
+  color: black;
+}
+
+input, select, textarea{
+    color: black;
 }
 
 .main-container {
@@ -41,12 +49,13 @@ input[value=Submit]:hover {
   width: 70%;
 }
 
-.container h2 {
-  margin-right: 7.5em;
+.social-container {
+  padding: 30px 0;
+  margin:  0 auto;
+  color: white;
 }
-
-.social {
-  margin-right: 15em;
+.social a {
+  color:  white;
 }
 
 .social a:hover {
