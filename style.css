@@ -15,6 +15,10 @@
   color: turquoise;
 }
 
+.social a:hover i{
+  color: #6F0BF1;
+}
+
 .UserInput{
   font-size: 20px;
 }
