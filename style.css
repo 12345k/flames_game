@@ -21,10 +21,10 @@
 
 input[value=Submit] {
   background-color: grey;
-  border: 0.1em solid black;
-  border-radius: 0.25em;
+  border: 0.2em solid black;
+  border-radius: 0.5em;
   color: blue;
-  padding: 0.5em;
+  padding: 0.25em;
 }
 
 input[value=Submit]:hover {
@@ -62,14 +62,14 @@ div {
 }
 
 p {
-    background-color: yellow;
+    background-color: blue;
 }
 .container {
     position: absolute;
-    right: 25px;
+    right: 15px;
     top: 0;
     color: #000;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 body
