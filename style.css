@@ -1,14 +1,18 @@
 *{
-  color: white;
+  /* color: white; */
   font-family: 'Poppins';
 }
 
 .title, .container h2 {
-  text-shadow: 2px 2px black;
+  /* text-shadow: 2px 2px black; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
 }
 
 .social a {
   padding: 0.5em;
+  color: #fff;
 }
 
 .social a:hover {
@@ -21,21 +25,21 @@
 
 input[value=Submit] {
   background-color: white;
-  border: 0.1em solid black;
+  border: none;
   border-radius: 0.25em;
-  color: blue;
+  color: rgb(115, 79, 247);
   padding: 0.5em;
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color: rgb(254, 192, 77);
 }
 
 .main-container {
-  background: rgb(255,41,149);
-  background: linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%);
+  background: rgb(41, 102, 255);
+  background: linear-gradient(7deg, rgb(135, 52, 202) 0%, rgb(51, 188, 213) 100%);
   border-radius: 2em;
-  box-shadow: 6px 10px black;
+  /* box-shadow: 6px 10px black; */
   margin-top: 4em;
   padding: 4em;
   width: 70%;
@@ -52,7 +56,14 @@ input[value=Submit]:hover {
 .social a:hover {
   color: turquoise;
 }
-
+#name1, #name2 {
+  padding: 5px;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
 /* h1 {
     background-color: green;
 }
