@@ -19,6 +19,8 @@
   font-size: 20px;
 }
 
+
+
 input[value=Submit] {
   background-color: white;
   border: 0.1em solid black;
@@ -42,16 +44,26 @@ input[value=Submit]:hover {
 }
 
 .container h2 {
-  margin-right: 7.5em;
+  margin-right: 0em;
+  text-align:center;
 }
 
 .social {
-  margin-right: 15em;
+  margin-right: 0em;
+  perspective: 1050px;
 }
 
 .social a:hover {
   color: turquoise;
 }
+
+.sharer-button i:hover {
+
+  text-shadow: 2px 2px 4px #000000;
+  color: #FFD700;
+}
+
+
 
 /* h1 {
     background-color: green;

@@ -25,17 +25,29 @@
         <h1>Flames</h1>
       </div>
 
-      <div class="UserInput">
+      <form class="UserInput form-horizontal">
       <!-- only alphabets should be accepted -->
 
-        Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-        Enter your crush's name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="name1">Enter your name:</label>
+          <div class="col-sm-6">
+             <input type="text" style="text-transform:uppercase;color:white;" onkeydown="return alphaOnly(event);"id="name1"name="" value="" class=" form-control">
+           </div>
+         </div>
+         <br><br>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="name2">Enter your crush's name:</label>
+          <div class="col-sm-6">
+             <input type="text" style="text-transform:uppercase;color:white;" onkeydown="return alphaOnly(event);" id="name2"name="" value="" class=" form-control">
+           </div>
+         </div>
+         <br><br>
         <input type="button"  onclick="flame_func()"name="" value="Submit">
           <h1 id="result"></h1>
 
-      </div>
+      </form>
 <center>
-    <div class="container">
+    <div class="container" style="width: 100%;">
       <h2>Share This Post</h2>
       <div class="social">
         <a href="#" id="share-wa" class="sharer-button"><i class="fa fa-3x fa-whatsapp"></i></a> <!-- -->
