@@ -54,9 +54,8 @@ input[value=Submit]:hover {
 }
 
 .container h2 {
-  /*margin-right: 7.5em;*/
-  text-align: center;
-  
+  margin-right: 7.5em;
+  /*text-align: center;  */
 }
 
 .social {
