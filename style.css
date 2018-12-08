@@ -3,6 +3,9 @@
   font-family: 'STCaiyun';
 
 }
+* h1{
+  font-size:  40px;
+}
 
 .title, .container h2 {
   text-shadow: 2px 2px black;
