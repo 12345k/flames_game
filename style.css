@@ -34,7 +34,7 @@ input[value=Submit] {
 input[value=Submit] {
   background-color: white;
   border: 0.1em solid blue;
-  border-radius: 0.5em;
+  border-radius: 1em;
   color: blue;
   padding: 0.5em;
 }
