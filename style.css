@@ -1,6 +1,7 @@
 *{
-  color: rgb(240, 116, 116);
+  color: white;
   font-family: 'Poppins';
+  position: center;
 }
 
 .title, .container h2 {
