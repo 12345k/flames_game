@@ -65,6 +65,7 @@ input[value=Submit]:hover {
 
 .social {
   margin-right: 21em;
+  cursor: pointer;
 }
 
 .social a:hover {
