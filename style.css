@@ -6,6 +6,7 @@
 
 .title, .container h2 {
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 .social a {
