@@ -4,7 +4,9 @@
 
 }
 
-
+.main-container h2{
+  text-size: 28px;
+}
 .title, .container h2 {
   text-shadow: 2px 2px black;
  
