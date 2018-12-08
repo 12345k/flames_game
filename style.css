@@ -19,6 +19,16 @@
   font-size: 20px;
 }
 
+/*
+input[value=Submit] {
+  background-color: white;
+  border: 0.1em solid black;
+  border-radius: 0.25em;
+  color: blue;
+  padding: 0.5em;
+}
+*/
+
 input[value=Submit] {
   background-color: white;
   border: 0.1em solid black;
@@ -28,7 +38,7 @@ input[value=Submit] {
 }
 
 input[value=Submit]:hover {
-  background-color: orange;
+  background-color: rgb(241, 163, 209);
 }
 
 .main-container {
