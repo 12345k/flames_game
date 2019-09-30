@@ -17,6 +17,12 @@
 
 .UserInput{
   font-size: 20px;
+  padding: 30px 0 0 0;
+}
+
+.UserInput .YourName p.YourNameText, .UserInput .CrushName p.CrushNameText {
+ display: inline-block;
+ width: 30%;	
 }
 
 input[value=Submit] {
@@ -74,3 +80,7 @@ p {
 }
 body{background-image: url("paper.gif");
 } */
+
+input#name1, input#name2 {
+	color: black;
+}

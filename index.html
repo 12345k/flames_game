@@ -27,9 +27,9 @@
 
       <div class="UserInput">
       <!-- only alphabets should be accepted -->
-
-        Enter your name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""><br><br>
-        Enter your crush's name: <input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""><br><br>
+		
+        <div class="YourName"><p class="YourNameText">Enter your name:</p><input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);"id="name1"name="" value=""></div>
+        <div class="CrushName"><p class="CrushNameText">Enter your crush's name:</p><input type="text" style="text-transform:uppercase" onkeydown="return alphaOnly(event);" id="name2"name="" value=""></div>
         <input type="button"  onclick="flame_func()"name="" value="Submit">
           <h1 id="result"></h1>
 
