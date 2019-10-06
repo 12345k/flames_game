@@ -1,56 +1,61 @@
-*{
-  color: white;
-  font-family: 'Poppins';
+* {
+	color: white;
+	font-family: "Poppins";
 }
 
-.title, .container h2 {
-  text-shadow: 2px 2px black;
+.title,
+.container h2 {
+	text-shadow: 2px 2px black;
 }
 
 .social a {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 .social a:hover {
-  color: turquoise;
+	color: turquoise;
 }
 
-.UserInput{
-  font-size: 20px;
+.UserInput {
+	font-size: 20px;
 }
 
-input[value=Submit] {
-  background-color: white;
-  border: 0.1em solid black;
-  border-radius: 0.25em;
-  color: blue;
-  padding: 0.5em;
+input[value="Submit"] {
+	background-color: white;
+	border: 0.1em solid black;
+	border-radius: 0.25em;
+	color: blue;
+	padding: 0.5em;
 }
 
-input[value=Submit]:hover {
-  background-color: orange;
+input[value="Submit"]:hover {
+	background-color: orange;
 }
 
 .main-container {
-  background: rgb(255,41,149);
-  background: linear-gradient(7deg, rgba(255,41,149,1) 0%, rgba(94,0,255,1) 100%);
-  border-radius: 2em;
-  box-shadow: 6px 10px black;
-  margin-top: 4em;
-  padding: 4em;
-  width: 70%;
+	background: rgb(255, 41, 149);
+	background: linear-gradient(
+		7deg,
+		rgba(255, 41, 149, 1) 0%,
+		rgba(94, 0, 255, 1) 100%
+	);
+	border-radius: 2em;
+	box-shadow: 6px 10px black;
+	margin-top: 4em;
+	padding: 4em;
+	width: 70%;
 }
 
 .container h2 {
-  margin-right: 7.5em;
+	margin-right: 7.5em;
 }
 
 .social {
-  margin-right: 15em;
+	margin-right: 15em;
 }
 
 .social a:hover {
-  color: turquoise;
+	color: turquoise;
 }
 
 /* h1 {
@@ -74,3 +79,8 @@ p {
 }
 body{background-image: url("paper.gif");
 } */
+@media only screen and (max-width: 900px) {
+	.social {
+		margin-right: 0;
+	}
+}
