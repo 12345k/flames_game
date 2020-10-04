@@ -1,12 +1,15 @@
 *{
-  color: white;
+  color: aqua;
   font-family: 'Poppins';
+  
+}
+.body-color{
+  background-color: cadetblue;
 }
 
 .title, .container h2 {
   text-shadow: 2px 2px black;
 }
-
 .social a {
   padding: 0.5em;
 }
@@ -17,6 +20,7 @@
 
 .UserInput{
   font-size: 20px;
+  color: #000000;
 }
 
 input[value=Submit] {
